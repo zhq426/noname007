@@ -4,16 +4,16 @@
 
 # Site
 title: noname007
-subtitle:
-description:
+subtitle: 一天进步一点
+description: 记录点滴
 keywords:
-author: John Doe
+author: noname
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://zhq426.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -78,4 +78,6 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/zhq426/noname007.git
+  branch: master
